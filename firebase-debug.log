@@ -1,0 +1,26 @@
+[debug] [2018-07-27T14:30:19.394Z] ----------------------------------------------------------------------
+[debug] [2018-07-27T14:30:19.399Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2018-07-27T14:30:19.399Z] CLI Version:   4.0.0
+[debug] [2018-07-27T14:30:19.399Z] Platform:      linux
+[debug] [2018-07-27T14:30:19.399Z] Node Version:  v8.11.3
+[debug] [2018-07-27T14:30:19.400Z] Time:          Fri Jul 27 2018 14:30:19 GMT+0000 (UTC)
+[debug] [2018-07-27T14:30:19.400Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-27T14:30:19.426Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-07-27T14:30:19.426Z] > attempting to authenticate via app default credentials
+[debug] [2018-07-27T14:30:19.458Z] ! auto-auth error: Could not load the default credentials. Browse to https://developers.google.com/accounts/docs/application-default-credentials for more information.
+[debug] [2018-07-27T14:30:19.459Z] > no credentials could be found or automatically retrieved
+[error] 
+[error] Error: Command requires authentication, please run firebase login
+[debug] [2018-07-27T14:30:19.723Z] Error: ETXTBSY: text file is busy, unlink '/vagrant/workspace/Quiz_RT/firebase-debug.log'
+    at Object.fs.unlinkSync (fs.js:1061:18)
+    at process.<anonymous> (/usr/lib/node_modules/firebase-tools/bin/firebase:63:8)
+    at emitOne (events.js:121:20)
+    at process.emit (events.js:211:7)
+    at process.exit (internal/process.js:157:15)
+    at Timeout._onTimeout (/usr/lib/node_modules/firebase-tools/lib/errorOut.js:17:13)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+[error] 
+[error] Error: An unexpected error has occurred.
